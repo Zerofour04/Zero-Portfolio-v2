@@ -64,7 +64,7 @@ export default {
   },
   methods: {
     async getArticles() {
-      axios.get('https://64a38c9cc3b509573b564183.mockapi.io/api/blog/all')
+      axios.get('https://65a92502219bfa3718689366.mockapi.io/Portfolio')
         .then(response => {
           this.articles = response.data;
         })

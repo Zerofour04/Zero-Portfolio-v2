@@ -8,99 +8,159 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Erfahren'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Grundlagen'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          name: 'JavaScript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Erfahren'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          name: 'TypeScript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png',
+          status: 'Fortgeschritten'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          name: 'Java',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/159/PNG/256/java_22523.png',
+          status: 'Fortgeschritten'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          name: 'MySQL',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png',
+          status: 'Erfahren'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          name: 'Lua',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_lua_icon_130410.png',
+          status: 'Fortgeschritten'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
+          name: 'C#',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png',
+          status: 'Grundlagen'
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          name: 'React',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png',
+          status: 'Fortgeschritten'
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
+          name: 'Bootstrap',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png',
+          status: 'Erfahren'
         },
         {
           id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          name: 'Redux',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/96/redux_original_logo_icon_146365.png',
+          status: 'Grundlagen'
         },
-        {
-          id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
-        }
       ],
       tools: [
         {
           id: 1,
-          name: 'Git',
-          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          name: 'NPM',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/npm_original_wordmark_logo_icon_146402.png',
+          status: 'Paketverwaltung'
         },
         {
           id: 2,
-          name: 'GitHub',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
-          status: 'Git Hosting'
+          name: 'GIT',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_git_icon_130581.png',
+          status: 'Versionskontrolle'
         },
         {
           id: 3,
-          name: 'NPM',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          name: 'Node.js',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png',
+          status: 'Laufzeitumgebung'
         },
         {
           id: 4,
-          name: 'MySQL',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          name: 'VS Code',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png',
+          status: 'Quellcode-Editor'
+        },
+        {
+          id: 5,
+          name: 'VS Studio',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/112/PNG/512/visual_studio_18908.png',
+          status: 'IDE'
+        },
+        {
+          id: 6,
+          name: 'Webstorm',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/3053/PNG/512/intellij_webstorm_macos_bigsur_icon_190053.png',
+          status: 'IDE'
+        },
+        {
+          id: 7,
+          name: 'GitHub',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png',
+          status: 'Projekte'
+        },
+        {
+          id: 8,
+          name: 'OperaGX',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/3053/PNG/512/opera_gx_macos_bigsur_icon_189866.png',
+          status: 'Web-Browser'
+        },
+        {
+          id: 9,
+          name: 'Trello',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/836/PNG/512/Trello_icon-icons.com_66775.png',
+          status: 'Projektmanagement'
+        },
+        {
+          id: 10,
+          name: 'Atlassian',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2407/PNG/512/atlassian_icon_146225.png',
+          status: 'Produktivität'
+        },
+        {
+          id: 11,
+          name: 'dev.to',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2108/PNG/512/dev_to_icon_130961.png',
+          status: 'Produktivität'
+        },
+        {
+          id: 12,
+          name: 'Windows',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/836/PNG/512/Windows_Phone_icon-icons.com_66782.png',
+          status: 'Server'
+        },
+        {
+          id: 13,
+          name: 'Linux',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/46/PNG/128/linux_penguin_animal_9362.png',
+          status: 'Server'
+        },
+        {
+          id: 14,
+          name: 'Vercel',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/3915/PNG/512/vercel_logo_icon_249276.png',
+          status: 'Cloud-Plattform'
+        },
+        {
+          id: 15,
+          name: 'Heroku',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2108/PNG/512/heroku_icon_130912.png',
+          status: 'Cloud-Plattform'
         },
       ]
     };
@@ -114,7 +174,7 @@ export default {
 
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          About Me &nbsp;
+          Über mich &nbsp;
           <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
         </div>
@@ -124,22 +184,20 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+            src="https://media.discordapp.net/attachments/517028743357792258/1197332708918038650/Logo500x500.png" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Hallo, mein Name ist Ben Ho und ich bin seit einigen Jahren leidenschaftlicher Entwickler. 
+            Während dieser Zeit habe ich zahlreiche Projekte entwickelt und mich auch auf die Verbesserung bestehender Repositories konzentriert. 
+            Um meine Arbeit mit anderen zu teilen, veröffentliche ich meine Codes auf GitHub. 
+            Ich habe auch Gelegenheit gehabt, an verschiedenen IT-Projekten teilzunehmen, was zur fortlaufenden Weiterentwicklung der Anwendung beiträgt.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; Seit meiner Kindheit fasziniert mich alles rund um Technik. 
+            Durch meine Begeisterung für Computer und Videospiele habe ich begonnen, mich in die Welt der Programmierung einzuarbeiten. 
+            In diesem Prozess habe ich viele neue Fähigkeiten am Computer erworben. 
+            Ebenso zählt mein Interesse an Autos zu meinen Leidenschaften, wodurch ich gerne Auto-Videos schneide und Fotos mache. 
           </p>
         </div>
 
