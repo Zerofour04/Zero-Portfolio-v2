@@ -122,42 +122,48 @@ export default {
         },
         {
           id: 9,
-          name: 'Trello',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/836/PNG/512/Trello_icon-icons.com_66775.png',
-          status: 'Projektmanagement'
-        },
-        {
-          id: 10,
           name: 'Atlassian',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2407/PNG/512/atlassian_icon_146225.png',
           status: 'Produktivität'
         },
         {
+          id: 10,
+          name: 'Notion',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/3053/PNG/512/notion_alt_macos_bigsur_icon_189899.png',
+          status: 'Produktivität'
+        },
+        {
           id: 11,
+          name: 'Trello',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/836/PNG/512/Trello_icon-icons.com_66775.png',
+          status: 'Projektmanagement'
+        },
+        {
+          id: 12,
           name: 'dev.to',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2108/PNG/512/dev_to_icon_130961.png',
           status: 'Produktivität'
         },
         {
-          id: 12,
+          id: 13,
           name: 'Windows',
           imageUrl: 'https://cdn.icon-icons.com/icons2/836/PNG/512/Windows_Phone_icon-icons.com_66782.png',
           status: 'Server'
         },
         {
-          id: 13,
+          id: 14,
           name: 'Linux',
           imageUrl: 'https://cdn.icon-icons.com/icons2/46/PNG/128/linux_penguin_animal_9362.png',
           status: 'Server'
         },
         {
-          id: 14,
+          id: 15,
           name: 'Vercel',
           imageUrl: 'https://cdn.icon-icons.com/icons2/3915/PNG/512/vercel_logo_icon_249276.png',
           status: 'Cloud-Plattform'
         },
         {
-          id: 15,
+          id: 16,
           name: 'Heroku',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2108/PNG/512/heroku_icon_130912.png',
           status: 'Cloud-Plattform'
@@ -184,7 +190,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://media.discordapp.net/attachments/517028743357792258/1197332708918038650/Logo500x500.png" alt="Foto">
+            src="https://media.discordapp.net/attachments/517028743357792258/1211754405628477521/Sds.png?ex=65ef593b&is=65dce43b&hm=35fc1eeb72d341332166e4214cc1b921b9e39320731dfb747b78764a983ff2b2&=&format=webp&quality=lossless" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
@@ -212,7 +218,7 @@ export default {
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
           <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
-          &nbsp; Skills
+          &nbsp; Fähigkeiten
         </div>
       </header>
       <section>
@@ -220,11 +226,11 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Programmiersprachen</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Werkzeuge</button>
             </li>
           </ul>
         </div>

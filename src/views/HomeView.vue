@@ -11,7 +11,7 @@
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-white pr-4 fade-in-from-left">Welcome to the digital home of me, feel at home!<span class="wave">👋🏼</span></p>
+      <p class="text-white pr-4 fade-in-from-left">Willkommen im digitalen Zuhause von mir, fühle dich wie zu Hause!<span class="wave">👋🏼</span></p>
       <br>
       <!-- <button
         class="fadein-bot fade-500 flex items-center py-2 px-4 mx-auto text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 md:mx-0 text-amber-200 border-amber-200 hover:bg-amber-200 hover:bg-opacity-10 bg-transparent focus:outline-none w-fit"><svg
@@ -25,7 +25,7 @@
         </svg>Download Resume</button> -->
     </div>
     <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://media.discordapp.net/attachments/517028743357792258/1197332708918038650/Logo500x500.png">
+        class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://avatars.githubusercontent.com/u/60815764?v=4">
     </div>
   </main>
 </template>

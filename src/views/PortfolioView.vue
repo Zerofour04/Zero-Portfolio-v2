@@ -6,46 +6,100 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
-        },
-        {
-          id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
-        },
-        {
-          id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
-          github: 'null',
+          name: 'Mitarbeiter-Liste',
+          imageUrl: 'employeesAdmin',
+          status: 'Das webbasierte IT-Projekt wurde während meines Praktikums für ein Unternehmen entwickelt. Diese Plattform verfügt über verschiedene Funktionen wie das Sperren von Mitarbeitern, das Unsichtbarmachen oder die Zuweisung in Gruppen sowie die Möglichkeit, Urlaubszeiten anzugeben. Bis heute wird dieses System aktiv von der Firma genutzt und bietet eine zentrale und benutzerfreundliche Lösung zur Verbesserung der Teamarbeit und zur effizienten Verwaltung von Aufgaben.',
+          tech: 'ReactTS, Azure, MSAL, Redux',
+          github: 'https://github.com/Zerofour04/React-TS-Employee-Management',
           demo: 'null'
         },
         {
+          id: 2,
+          name: 'ToDo-Liste',
+          imageUrl: 'toDolist',
+          status: 'Dies ist eines meiner ersten Projekte, das mit ReactJS entwickelt wurde. Es diente als Gelegenheit, verschiedene Funktionen zu erkunden und zu implementieren, um ein besseres Verständnis für die Funktionsweise von ReactJS zu entwickeln. Die Todos werden separat in einem JSON-Server gespeichert, was eine einfache und effiziente Datenverwaltung ermöglicht. Die Todoliste bietet eine intuitive Benutzeroberfläche, die es Benutzern ermöglicht, neue Todos zu erstellen, bestehende Todos zu bearbeiten und nicht mehr benötigte Todos zu löschen.',
+          tech: 'ReactJS, JSON-Server',
+          github: 'https://github.com/Zerofour04/React-JS-ToDoList',
+          demo: 'null'
+        },
+        {
+          id: 3,
+          name: 'Java-Spiel',
+          imageUrl: 'javagame',
+          status: 'Dieses Java-Spiel wurde im Rahmen einer schulischen Aufgabe mit Greenfoot entwickelt. Es stellt eine spannende Möglichkeit dar, die Grundlagen der objektorientierten Programmierung mit Java zu erlernen und anzuwenden. Das Spiel simuliert eine Verfolgungsjagd, bei der der Spieler mit einem Auto vor der Polizei flüchten muss, die ihn intensiv verfolgt. Dabei muss der Spieler geschickt neun Autos zerstören, um Punkte zu sammeln und seine Flucht zu verbessern. Durch geschicktes Manövrieren und Taktieren kann der Spieler entkommen, während die Polizei versucht, ihn zu schnappen.',
+          tech: 'Java, Greenfoot',
+          github: 'https://github.com/Zerofour04/Greenfoot-game',
+          demo: 'https://zerofour04.github.io/Greenfoot-game/'
+        },
+        {
           id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          name: 'Abiseite',
+          imageUrl: 'abipage',
+          status: 'Diese Abiseite wurde speziell von mir für unsere Klasse entwickelt, um sicherzustellen, dass jeder Teilnehmer über alle relevanten Details informiert ist. Neben grundlegenden Informationen über Unterkunft und Anreisemöglichkeiten habe ich auch verschiedene APIs in die Website integriert, darunter eine Wettervorhersage, um sicherzustellen, dass unsere Abschlussfeier reibungslos verläuft und alle Gäste bestmöglich informiert sind. In naher Zukunft plane ich außerdem die Entwicklung einer weiteren Seite, die die besonderen Momente unserer Abschlussfeier festhält.',
+          tech: 'ReactJS, JavaScript, Server',
           github: 'null',
           demo: 'null'
         },
         {
           id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
+          name: 'Discord Bot',
+          imageUrl: 'discordbot',
+          status: 'Ich habe einen Discord-Bot entwickelt, um die meisten anderen Bots auf meinem Server zu ersetzen. Dabei wurde er speziell entworfen, um unsere Servergemeinschaft zu unterstützen und das Discord-Erlebnis für alle Mitglieder zu verbessern. Neben grundlegenden Funktionen wie Moderation und Verwaltung bietet der Bot auch spezielle Features, die das Nutzererlebnis bereichern. Dazu gehören die Integration verschiedener APIs für nützliche Informationen oder Unterhaltungszwecke sowie die Möglichkeit, Musik mithilfe von YouTube-APIs abzuspielen.',
+          tech: 'JavaScript, Discord-Bot',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 6,
+          name: 'Spotify',
+          imageUrl: 'spotify',
+          status: 'Eines meiner ersten Projekte war außerdem eine Spotify-Anwendung, mit der man seine Musik sofort über eine eigene Schnittstelle steuern konnte. Die umfangreiche Funktionalität der Spotify-API eröffnet zahlreiche kreative Möglichkeiten für die Entwicklung innovativer Projekte im Zusammenhang mit Musik und Audio-Streaming.',
+          tech: 'ReactJS, JavaScript',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 7,
+          name: 'Portfolio Page',
+          imageUrl: 'portfoliopage',
+          status: 'Was ebenfalls nicht fehlen darf, ist eine individuelle Seite für jeden Entwickler, und das gilt auch für mich. Zuerst habe ich meine eigene Seite erstellt, jedoch später andere Projekte geforkt, da das Design einfach viel ansprechender war. Dabei habe ich nicht nur mein Design verbessert, sondern auch viel über Server und Domains gelernt. Dies eröffnete mir neue Perspektiven und half mir, meine Fähigkeiten in der Webentwicklung weiter auszubauen.',
+          tech: 'React, Server, Domain',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 8,
+          name: 'FiveM Vehicle Models',
+          imageUrl: 'carpack',
+          status: 'Während der Zeit der Corona-Pandemie habe ich die Gelegenheit genutzt, um mich intensiv mit FiveM zu beschäftigen. In dieser Phase begann ich, mich mit der Programmierung in LUA und der Gestaltung von Benutzeroberflächen (UI) auseinanderzusetzen. Darüber hinaus vertiefte ich meine Kenntnisse im Designbereich durch die Arbeit mit Photoshop sowie im 3D-Modellieren von Fahrzeugen, die im Spiel mit benutzerdefinierten Texturen geladen wurden.',
+          tech: '3D-Modeling, UI, LUA',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 9,
+          name: 'Mehr FiveM Projekte',
+          imageUrl: 'rimspack',
+          status: 'Bis heute arbeite ich weiterhin an FiveM-Skriptprojekten, die alle auf GitHub eingesehen werden können. Während die meisten Entwickler eine Bezahlung verlangen, bin ich entschlossen, alles als Open-Source zu halten.',
+          tech: 'LUA',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 10,
+          name: 'Scratch-Spiel',
+          imageUrl: 'Scratch',
+          status: 'Dies war mein erstes Programmierprojekt, das ich in der 9. Klasse mit Scratch erstellt habe. In diesem Projekt musste ich verschiedene Befehlsblöcke miteinander verknüpfen, um das Spiel zu entwickeln. Inspiriert von Rocket League, einer beliebten Videospielreihe, habe ich ein einfaches 2D-Spiel entworfen. Es war eine spannende Erfahrung, meine kreativen Ideen in die Praxis umzusetzen und dabei grundlegende Programmierkonzepte kennenzulernen. Dieses Projekt war der Anfang meiner Leidenschaft für die Programmierung und hat mich dazu motiviert, mein Wissen und meine Fähigkeiten in diesem Bereich weiter auszubauen.',
+          tech: 'Logische/Visuelle Programmierung',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 11,
+          name: 'Mehr auf GitHub',
+          imageUrl: 'error',
+          status: 'Ach, bist du schon hier? Das ist erst der Anfang meiner Projekte! Um alle meine Arbeiten zu entdecken, würde es zu lange dauern, sie alle hier aufzuführen. Stattdessen findet ihr sie alle auf meinem GitHub-Profil. Ich würde mich freuen, wenn ihr vorbeischaut!',
+          tech: 'LUA',
           github: 'null',
           demo: 'null'
         }
@@ -61,9 +115,9 @@ export default {
         <div
           class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
-          <h4>Past Project Experience</h4>
+          <h4>Projekte:</h4>
           <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Explore the projects I've worked on so far</h4>
+            Entdecke Projekte, an denen ich bisher gearbeitet habe.</h4>
         </div>
       </header>
       <section>
