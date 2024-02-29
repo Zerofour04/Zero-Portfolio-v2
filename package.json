@@ -1,7 +1,6 @@
 {
   "name": "portofolio-v2",
   "version": "0.1.0",
-  "homepage": "https://Zerofour04.me",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
