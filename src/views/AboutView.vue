@@ -20,19 +20,19 @@ export default {
           id: 3,
           name: 'JavaScript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Erfahren'
+          status: 'Fortgeschritten'
         },
         {
           id: 4,
           name: 'TypeScript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png',
-          status: 'Fortgeschritten'
+          status: 'Grundlagen'
         },
         {
           id: 5,
           name: 'Java',
           imageUrl: 'https://cdn.icon-icons.com/icons2/159/PNG/256/java_22523.png',
-          status: 'Fortgeschritten'
+          status: 'Grundlagen'
         },
         {
           id: 6,
@@ -50,25 +50,37 @@ export default {
           id: 8,
           name: 'C#',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png',
-          status: 'Grundlagen'
+          status: 'Anfänger'
         },
         {
           id: 9,
+          name: 'C++',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/cplusplus_original_logo_icon_146581.png',
+          status: 'Anfänger'
+        },
+        {
+          id: 10,
           name: 'React',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png',
           status: 'Fortgeschritten'
         },
         {
-          id: 10,
+          id: 11,
+          name: 'Vue',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vue_icon_130078.png',
+          status: 'Grundlagen'
+        },
+        {
+          id: 12,
+          name: 'Php',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/php_plain_logo_icon_146397.png',
+          status: 'Anfänger'
+        },
+        {
+          id: 13,
           name: 'Bootstrap',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png',
           status: 'Erfahren'
-        },
-        {
-          id: 11,
-          name: 'Redux',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/96/redux_original_logo_icon_146365.png',
-          status: 'Grundlagen'
         },
       ],
       tools: [
@@ -190,14 +202,14 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://media.discordapp.net/attachments/517028743357792258/1211754405628477521/Sds.png?ex=65ef593b&is=65dce43b&hm=35fc1eeb72d341332166e4214cc1b921b9e39320731dfb747b78764a983ff2b2&=&format=webp&quality=lossless" alt="Foto">
+            src="/img/about-personalpic.png" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hallo, mein Name ist Ben Ho und ich bin seit einigen Jahren leidenschaftlicher Entwickler. 
             Während dieser Zeit habe ich zahlreiche Projekte entwickelt und mich auch auf die Verbesserung bestehender Repositories konzentriert. 
             Um meine Arbeit mit anderen zu teilen, veröffentliche ich meine Codes auf GitHub. 
-            Ich habe auch Gelegenheit gehabt, an verschiedenen IT-Projekten teilzunehmen, was zur fortlaufenden Weiterentwicklung der Anwendung beiträgt.
+            Aktuell arbeite ich in einem IT-Dienstleistungsunternehmen, wo ich Projekte für verschiedene Kunden entwickle.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
             &nbsp; &nbsp; &nbsp; Seit meiner Kindheit fasziniert mich alles rund um Technik. 
