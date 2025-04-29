@@ -62,25 +62,25 @@ export default {
           id: 10,
           name: 'React',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png',
-          status: 'Fortgeschritten'
+          status: 'Grundlagen'
         },
         {
           id: 11,
           name: 'Vue',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vue_icon_130078.png',
-          status: 'Grundlagen'
+          status: 'Fortgeschritten'
         },
         {
           id: 12,
           name: 'Php',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/php_plain_logo_icon_146397.png',
-          status: 'Anfänger'
+          status: 'Grundlagen'
         },
         {
           id: 13,
-          name: 'Bootstrap',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png',
-          status: 'Erfahren'
+          name: 'Tailwind',
+          imageUrl: 'https://images.icon-icons.com/2107/PNG/512/file_type_tailwind_icon_130128.png',
+          status: 'Grundlagen'
         },
       ],
       tools: [
