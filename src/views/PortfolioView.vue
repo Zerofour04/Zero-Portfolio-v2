@@ -6,6 +6,15 @@ export default {
             items: [
                 {
                     id: 1,
+                    name: 'Nextcloud-One Kundenportal',
+                    imageUrl: 'nccustomerd',
+                    status: 'Ein vollständig entkoppeltes Kundenportal zur Verwaltung von Nextcloud-Abonnements. Die moderne Nuxt-3-Anwendung läuft unabhängig auf einer eigenen URL und kommuniziert ausschließlich über REST APIs mit einem WordPress-Backend. Nutzer können ihre Hosting-Instanzen, Rechnungen und Zahlungsdaten einsehen. Die Authentifizierung erfolgt nahtlos über den eingeloggten WordPress-Account, während Stripe zur Abo- und Zahlungsverwaltung integriert sind.',
+                    tech: 'Nuxt 3, TailwindCSS, Pinia, Stripe API, WordPress REST API',
+                    github: 'null',
+                    demo: 'https://my.nextcloud-one.com/en/login'
+                },
+                {
+                    id: 1,
                     name: 'Nextcloud-One Bestellformular',
                     imageUrl: 'ncorderform',
                     status: 'Dieses Projekt ist ein modernes WordPress-Plugin zur Integration von Nextcloud-Hostingplänen mit Stripe-Zahlungsabwicklung. Es bietet ein sechsstufiges Bestellformular mit Domainverfügbarkeitsprüfung, USt-ID-Validierung, dynamischer Preisberechnung und vollständiger Mehrsprachigkeit (DE/EN). Kunden können flexibel zwischen Sandbox- und Live-Umgebungen wählen. Das Plugin verfügt über eine Verwaltungsoberfläche im WordPress-Backend und nutzt die Stripe-API für Produkt- und Kundenmanagement inklusive Metadaten-Zuordnung.',
@@ -132,11 +141,11 @@ export default {
                 },
                 {
                     id: 15,
-                    name: 'Mehr auf GitHub',
-                    imageUrl: 'error',
-                    status: 'Ach, bist du schon hier? Das ist erst der Anfang meiner Projekte! Um alle meine Arbeiten zu entdecken, würde es zu lange dauern, sie alle hier aufzuführen. Stattdessen findet ihr sie alle auf meinem GitHub-Profil. Ich würde mich freuen, wenn ihr vorbeischaut!',
-                    tech: 'LUA',
-                    github: 'null',
+                    name: 'Weitere Projekte',
+                    imageUrl: 'kundenprojekte',
+                    status: 'Neben den hier gezeigten Beispielen arbeite ich kontinuierlich an weiteren Projekten. Einige davon sind aus Datenschutzgründen privat, da sie speziell für Kunden entwickelt wurden. Weitere öffentliche Projekte findest du auf meinem GitHub-Profil – ein Besuch lohnt sich!',
+                    tech: 'LUA, Vue, Nuxt, uvm.',
+                    github: 'https://github.com/Zerofour04',
                     demo: 'null'
                 }
             ]

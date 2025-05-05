@@ -3,7 +3,11 @@
         <div class="bg-white rounded-xl mx-3 p-5 md:p-10 md:mx-0">
             <div>
                 <h1 class="text-xl md:text-4xl text-black text-left font-bold leading-relaxed">{{ title }}</h1>
-                <div class="mt-3 text-left text-gray-800 text-sm">Veröffentlicht am <span>{{ date }}</span></div>
+                <div class="mt-3 text-left text-gray-800 text-sm flex items-center">
+                    <!-- Avatar-Bild -->
+                    <img src="/img/about-personalpic.png" alt="Avatar" class="w-8 h-8 rounded-full mr-3 object-cover border border-gray-200">
+                    <span>Veröffentlicht am <span>{{ date }}</span></span>
+                </div>
                 <div class="h-[2px] w-20 my-5 md:my-10 bg-[#ffdb70] md:w-1/3 aos-init aos-animate mr-2"></div>
                 <div>
                     <div class="relative w-full" style="padding-top: 50%;">
@@ -19,8 +23,8 @@
     </div>
 </template>
 <script>
-import axios from 'axios';
 import { useRoute } from 'vue-router';
+import articlesData from '@/data/articles.json';
 
 export default {
     data() {
@@ -36,15 +40,17 @@ export default {
         this.getDetails();
     },
     methods: {
-        async getDetails() {
+        getDetails() {
             const id = this.route.params.id;
-            axios.get('https://65a92502219bfa3718689366.mockapi.io/Portfolio/' + id)
-                .then(response => {
-                    this.title = response.data.title;
-                    this.image = response.data.image;
-                    this.date = response.data.date;
-                    this.content = response.data.content;
-                })
+            // Finde den Artikel mit der passenden ID in der lokalen JSON-Datei
+            const article = articlesData.find(article => article.id.toString() === id);
+            
+            if (article) {
+                this.title = article.title;
+                this.image = article.image;
+                this.date = article.date;
+                this.content = article.content || ''; // Falls content nicht vorhanden ist
+            }
         }
     }
 }

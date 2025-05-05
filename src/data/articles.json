@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "slug": "stripe-payment-integration",
+        "title": "Stripe vs andere Zahlungsanbieter",
+        "desc": "Eine Beschreibung meines ersten Projekts und was ich dabei gelernt habe.",
+        "date": "05.05.2025",
+        "image": "/images/projekt1.jpg",
+        "content": "<p>Mehr folgt bald...</p>"
+    },
+    {
+        "id": 1,
+        "slug": "hello-world",
+        "title": "Mein erster Blog Post",
+        "desc": "Wie ich zur Fotografie kam und welche Ausrüstung ich verwende.",
+        "date": "15.02.2023",
+        "image": "/images/fotografie.jpg",
+        "content": "<p>Willkommen</p>"
+    }
+]
