@@ -1,7 +1,7 @@
 {
   "name": "portofolio-v2",
   "version": "0.1.0",
-  "homepage": "https://zerofour04.github.io/Zero-Portfolio-v2/",
+  "homepage": "https://zerofour04.dev",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",

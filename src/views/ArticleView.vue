@@ -5,7 +5,7 @@
                 <h1 class="text-xl md:text-4xl text-black text-left font-bold leading-relaxed">{{ title }}</h1>
                 <div class="mt-3 text-left text-gray-800 text-sm flex items-center">
                     <!-- Avatar-Bild -->
-                    <img src="/img/about-personalpic.png" alt="Avatar" class="w-8 h-8 rounded-full mr-3 object-cover border border-gray-200">
+                    <img src="../assets/img/about-personalpic.png" alt="Avatar" class="w-8 h-8 rounded-full mr-3 object-cover border border-gray-200">
                     <span>Veröffentlicht am <span>{{ date }}</span></span>
                 </div>
                 <div class="h-[2px] w-20 my-5 md:my-10 bg-[#ffdb70] md:w-1/3 aos-init aos-animate mr-2"></div>
