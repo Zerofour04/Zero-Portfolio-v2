@@ -1,8 +1,45 @@
 <script>
+
+import nccustomerdImg from '@/assets/img/portfolio-nccustomerd.png';
+import ncorderformImg from '@/assets/img/portfolio-ncorderform.png';
+import ooorderformImg from '@/assets/img/portfolio-ooorderform.png';
+import oocustomerdImg from '@/assets/img/portfolio-oocustomerd.png';
+import carrentalImg from '@/assets/img/portfolio-carrental.png';
+import employeesAdminImg from '@/assets/img/portfolio-employeesAdmin.png';
+import toDoListImg from '@/assets/img/portfolio-toDoList.png';
+import javagameImg from '@/assets/img/portfolio-javagame.png';
+import abipageImg from '@/assets/img/portfolio-abipage.png';
+import discordbotImg from '@/assets/img/portfolio-discordbot.png';
+import spotifyImg from '@/assets/img/portfolio-spotify.png';
+import portfoliopageImg from '@/assets/img/portfolio-portfoliopage.png';
+import carpackImg from '@/assets/img/portfolio-carpack.png';
+import rimspackImg from '@/assets/img/portfolio-rimspack.png';
+import scratchImg from '@/assets/img/portfolio-Scratch.png';
+import kundenprojekteImg from '@/assets/img/portfolio-kundenprojekte.png';
+// Füge ein Fallback-Bild hinzu
+import placeholderImg from '@/assets/img/portfolio-error.png';
 export default {
     data() {
         return {
             activeTab: 1,
+            images: {
+                nccustomerd: nccustomerdImg,
+                ncorderform: ncorderformImg,
+                ooorderform: ooorderformImg,
+                oocustomerd: oocustomerdImg,
+                carrental: carrentalImg,
+                employeesAdmin: employeesAdminImg,
+                toDoList: toDoListImg,
+                javagame: javagameImg,
+                abipage: abipageImg,
+                discordbot: discordbotImg,
+                spotify: spotifyImg,
+                portfoliopage: portfoliopageImg,
+                carpack: carpackImg,
+                rimspack: rimspackImg,
+                Scratch: scratchImg,
+                kundenprojekte: kundenprojekteImg,
+            },
             items: [
                 {
                     id: 1,
@@ -11,7 +48,7 @@ export default {
                     status: 'Ein vollständig entkoppeltes Kundenportal zur Verwaltung von Nextcloud-Abonnements. Die moderne Nuxt-3-Anwendung läuft unabhängig auf einer eigenen URL und kommuniziert ausschließlich über REST APIs mit einem WordPress-Backend. Nutzer können ihre Hosting-Instanzen, Rechnungen und Zahlungsdaten einsehen. Die Authentifizierung erfolgt nahtlos über den eingeloggten WordPress-Account, während Stripe zur Abo- und Zahlungsverwaltung integriert sind.',
                     tech: 'Nuxt 3, TailwindCSS, Pinia, Stripe API, WordPress REST API',
                     github: 'null',
-                    demo: 'https://my.nextcloud-one.com/en/login'
+                    demo: 'null'
                 },
                 {
                     id: 1,
@@ -61,7 +98,7 @@ export default {
                 {
                     id: 6,
                     name: 'ToDo-Liste',
-                    imageUrl: 'toDolist',
+                    imageUrl: 'toDoList',
                     status: 'Dies ist eines meiner ersten Projekte, das mit ReactJS entwickelt wurde. Es diente als Gelegenheit, verschiedene Funktionen zu erkunden und zu implementieren, um ein besseres Verständnis für die Funktionsweise von ReactJS zu entwickeln. Die Todos werden separat in einem JSON-Server gespeichert, was eine einfache und effiziente Datenverwaltung ermöglicht. Die Todoliste bietet eine intuitive Benutzeroberfläche, die es Benutzern ermöglicht, neue Todos zu erstellen, bestehende Todos zu bearbeiten und nicht mehr benötigte Todos zu löschen.',
                     tech: 'ReactJS, JSON-Server',
                     github: 'https://github.com/Zerofour04/React-JS-ToDoList',
@@ -150,6 +187,11 @@ export default {
                 }
             ]
         };
+    },
+    methods: {
+        getImage(name) {
+            return this.images[name] || placeholderImg;
+        }
     }
 };
 </script>
@@ -182,7 +224,7 @@ export default {
                                         decoding="async"
                                         data-nimg="1"
                                         class="drop-shadow-xl rounded rounded-xl"
-                                        :src="'/img/portfolio-' + item.imageUrl + '.png'" />
+                                        :src="require(`@/assets/img/portfolio-${item.imageUrl}.png`)" />
                                 </div>
                                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                                     <div class="title-text font-medium text-secondary">{{ item.name }}</div>

@@ -11,7 +11,7 @@
                 <div class="h-[2px] w-20 my-5 md:my-10 bg-[#ffdb70] md:w-1/3 aos-init aos-animate mr-2"></div>
                 <div>
                     <div class="relative w-full" style="padding-top: 50%;">
-                        <img :src="image" class="absolute top-0 left-0 rounded-lg w-full h-full object-cover"
+                        <img :src="getImage(image)" class="absolute top-0 left-0 rounded-lg w-full h-full object-cover"
                             alt="Thumbnail">
                     </div>
                 </div>
@@ -26,6 +26,14 @@
 import { useRoute } from 'vue-router';
 import articlesData from '@/data/articles.json';
 
+// Importiere die Bilder
+import errorImg from '@/assets/img/portfolio-error.png';
+import welcomeImg from '@/assets/img/blog-welcome.webp';
+import unihochschuleImg from '@/assets/img/blog-unihochschule.webp';
+
+// Füge ein Fallback-Bild hinzu
+import placeholderImg from '@/assets/img/portfolio-error.png';
+
 export default {
     data() {
         return {
@@ -34,6 +42,12 @@ export default {
             image: '',
             date: '',
             content: '',
+            images: {
+                'portfolio-error.png': errorImg,
+                'blog-welcome.webp': welcomeImg,
+                'blog-unihochschule.webp': unihochschuleImg,
+                // Füge weitere Bilder hinzu, wenn nötig
+            }
         }
     },
     mounted() {
@@ -51,6 +65,13 @@ export default {
                 this.date = article.date;
                 this.content = article.content || ''; // Falls content nicht vorhanden ist
             }
+        },
+        getImage(name) {
+            // Wenn es ein vollständiger Pfad ist, verwende ihn direkt
+            if (name && name.startsWith('/')) return name;
+            
+            // Sonst versuche, das Bild aus dem images-Objekt zu holen
+            return this.images[name] || placeholderImg;
         }
     }
 }

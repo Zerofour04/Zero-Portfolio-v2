@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+        <title>ZeroFour04 | Ben Ho | Website & Blog</title>
 
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet" />
+
+        <!-- SEO Meta-Tags -->
+        <meta
+            name="description"
+            content="Portfolio und persönliche Website von ZeroFour04 mit IT-Projekten, technischen Interessen und einem Blog zur Informatik." />
+        <meta
+            name="keywords"
+            content="ZeroFour04, Portfolio, IT-Projekte, Entwickler, Technik, Webentwicklung, Persönliche Website, Tech-Blog" />
+        <meta name="author" content="Ben Ho" />
+
+        <!-- Open Graph Meta-Tags (für Social Media) -->
+        <meta property="og:title" content="Mein Blog" />
+        <meta property="og:description" content="Spannende Beiträge zu IT-Projekten, Technik und Webentwicklung." />
+        <meta property="og:image" content="<%= BASE_URL %>preview-image.jpg" />
+        <meta property="og:url" content="https://zerofour04.dev" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter Card Meta-Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mein Blog" />
+        <meta name="twitter:description" content="Spannende Beiträge zu IT-Projekten, Technik und Webentwicklung." />
+        <meta name="twitter:image" content="<%= BASE_URL %>preview-image.jpg" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://zerofour04.dev" />
+    </head>
+    <body>
+        <noscript>
+            <strong
+                >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript
+                enabled. Please enable it to continue.</strong
+            >
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+    </body>
 </html>

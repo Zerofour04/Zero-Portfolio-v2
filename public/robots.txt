@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zerofour04.dev/sitemap.xml
